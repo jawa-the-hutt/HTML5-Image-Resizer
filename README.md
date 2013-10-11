@@ -3,7 +3,7 @@
 
 Resize Images to be uploaded to a server
 
-This Javascript library is created in an effort to afford an easy way to resize images on the fly before they are uploaded to a server.
+This Javascript library is created in an effort to afford an easy way to resize images on the fly before they are uploaded to a server.  It will return an Array that has either a Base64 encoded DataURL or a File Blob for each image.
 
 It uses the HTML5 Files API to process each image and resize it to the options configured at the time the 'resizeimage' function is called.
 
@@ -20,4 +20,6 @@ The options that can be configured are:
 
 
 You must use the BinaryAjax.js  and EXIF.js libraries for this to function.  They can be found here: http://www.nihilogic.dk/labs/exif/
+
+Take a look at the example project to see how it functions.
 
