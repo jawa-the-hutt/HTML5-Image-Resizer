@@ -10,10 +10,14 @@ It uses the HTML5 Files API process each image and resize it to the options conf
 
 The options that can be configured are:
 
-CanvasImageType:    'jpeg'         // alternative is 'png'.  Default is JPEG
-ImageQuality:       0.7            // Used in the toDataURL() function to compress JPEG's.  This will be ignored for PNG's.  Default is 1 (no compression)
+CanvasImageType:    This can be 'jpeg' or 'png'
+
+ImageQuality:       Scale from 0 to 1.  Used in the toDataURL() function to compress JPEG's.  This will be ignored for PNG's.  Default is 1 (no compression)
+
 newImageRatio:      'original'     // alternative is two numbers...eg...1024/768.  Default is 'orginal'  Keeps the original image aspect ratio
+
 Max_PixelSize:      1024           // The maximum longest width or height allowed depending on orientation. Default is original which gets the longest dimension and uses this
+
 ReturnedDataType:   'Blob'         // alternative is 'Blob'
 
 
