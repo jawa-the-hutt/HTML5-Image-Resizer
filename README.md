@@ -19,5 +19,5 @@ The options that can be configured are:
 
 
 
-You must use the BinaryAjax.ls  and EXIF.js libraries for this to function.  They can be found here: http://www.nihilogic.dk/labs/exif/
+You must use the BinaryAjax.js  and EXIF.js libraries for this to function.  They can be found here: http://www.nihilogic.dk/labs/exif/
 
